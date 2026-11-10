@@ -1,0 +1,32 @@
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Generated logs and reports
+logs/*.json
+logs/*.csv
+reports/*.pdf
+
+# Large model weights
+*.pt
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
